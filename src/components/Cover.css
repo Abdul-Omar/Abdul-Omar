@@ -1,0 +1,7 @@
+.cover {
+	height: 50vh;
+	width: auto;
+	align-items: center;
+	align-content: center;
+	background-image: url("./background.png");
+}

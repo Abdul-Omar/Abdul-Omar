@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+   font-family: "Courier New", Courier, monospace;
+   /*background-image: url("./components/background.png");
+   background-repeat: no-repeat;*/
+   align-content: center;
+   align-items: center;
+ 
+}
+
+.parallax { 
+  /* The image used */
+  /*background-image: url("./components/background.png");*/
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+<!-- Container element -->
+<div class="parallax"></div>
+
+code {
+   font-family: "Courier New", Courier, monospace;
+}
