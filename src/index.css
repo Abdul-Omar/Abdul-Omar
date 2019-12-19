@@ -27,5 +27,14 @@ body {
 <div class="parallax"></div>
 
 code {
-   font-family: "Courier New", Courier, monospace;
+   font-family:  "Segoe UI","Courier New", Courier, monospace;
+}
+
+.footerr {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  padding-bottom: 0;
+  margin-bottom: 0;          
 }

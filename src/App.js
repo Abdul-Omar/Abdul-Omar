@@ -38,13 +38,16 @@ class App extends Component {
     return (
       <div> 
         <Navbar onRouteChange={this.onRouteChange}/>
-         <SocialButtonPage/>
         { route === 'home'
         ? <div className="flex">
         <SideBar/> 
         </div>
          :
+         <div className="flex-column" >
+
          <Projects  onRouteChange={this.onRouteChange}> </Projects>
+         <SocialButtonPage className="footerr mb0 pv4"/>
+         </div>
        }
       </div>
     );

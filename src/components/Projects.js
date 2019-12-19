@@ -16,7 +16,7 @@ const Projects = () =>{
   </header>
   <section class="fl w-100">
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l tc">
-      <p class="f6 lh-copy measure tc">
+      <p class="f4 lh-copy measure tc">
         I have prepared this course with goal of teaching data structures 
         in the least confusing manner taking into account various level of 
         skill
@@ -27,7 +27,7 @@ const Projects = () =>{
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
+      <p class="f4 lh-copy measure">
 
         We will start with basic data structues such as arrays, vectors, arraylists
         stack and queue. Then, later on we will move on to advanced data structures
@@ -41,7 +41,7 @@ const Projects = () =>{
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
+      <p class="f4 lh-copy measure">
         In addition to written material, I will also post video tutorials on Youtube. 
         click the link to my Youtube channel to help with the the understanding of the content
         The number of videos posted will be proportional to the interest shown by the 
@@ -49,13 +49,9 @@ const Projects = () =>{
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f6 lh-copy measure">
-        Only through constant practice and strictest self-criticism may we
-        develop a sense for a perfect piece of work. Unfortunately, most
-        seem content with a middling performance. Careful spacing of words
-        and the correct spacing of capital letters appear to be unknown or
-        unimportant to some typesetters, yet for him who investigates, the
-        correct rules are not difficult to discover.
+      <p class="f4 lh-copy measure">
+       Stay tuned for more announcements. Meanwhile, browse through the 
+       written tutorials I have prepared for you. Thanks for stopping by! Enjoy!
       </p>
     </div>
     </section>
