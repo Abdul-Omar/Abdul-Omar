@@ -1,63 +1,63 @@
-
 import React, { Component } from 'react';
-
+import 'tachyons';
+import './Cover.css';
+import background from "./background.png";
+import Abdul from "./Abdul.jpg";
+import smiley from "./smiley.png";
 const Projects = () =>{
 
-  return (
-<article class="cf pa3 mw9 center">
-  <header class="fl w-100 w-50-l pa3-m pa4-l mb3 mb5-l">
-    <h2 class="lh-title f3 b mt0">
+return (
 
-      Understanding the mechanics of advanced data structures and algorithms is 
-      an important skill to have as a software engineer. In this field, you are always 
-      surrounded by data and are always tasked with storing and organizing data.
-      
-    </h2>
-  </header>
-  <section class="fl w-100">
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l tc">
-      <p class="f4 lh-copy measure tc">
-        I have prepared this course with goal of teaching data structures 
-        in the least confusing manner taking into account various level of 
-        skill
-        and exposure to data structures and algorithms. This course will be 
-        in c++ and Java.
-        Hence, familiarity with the basic syntax is assumed, if not expected.
+	<article className= "flex center  mt7  ">
 
-      </p>
-    </div>
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f4 lh-copy measure">
 
-        We will start with basic data structues such as arrays, vectors, arraylists
-        stack and queue. Then, later on we will move on to advanced data structures
-        and algorithms. These advanced data structures include Binary Trees, KD-Trees,
-        Multi-Way Tries, Ternary Search Tries. We will also study graphs and advanced
-        graph algorithms including Dijkstras shortest path algorithm, Kruskals algorithm
-        that finds Minimum Spanning Trees(MSTs). To cap it all, we will look at the A* algorithm
-        also used in findind the shortest path from one point to another on a graph that
-        uses a heuristic function to smartly find the shortest path.
-         
-      </p>
-    </div>
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f4 lh-copy measure">
-        In addition to written material, I will also post video tutorials on Youtube. 
-        click the link to my Youtube channel to help with the the understanding of the content
-        The number of videos posted will be proportional to the interest shown by the 
-        followers of the course and questions asked there. 
-      </p>
-    </div>
-    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
-      <p class="f4 lh-copy measure">
-       Stay tuned for more announcements. Meanwhile, browse through the 
-       written tutorials I have prepared for you. Thanks for stopping by! Enjoy!
-      </p>
-    </div>
-    </section>
+  <article class=" Card mw5 center vh-75 bg-white  w-75br3 pa3 pa4-ns mv3 ba mr2 b--black-10 shadow-5">
+  <div class="tc">
+    <img src={Abdul} class="br-100 h3 w3 dib" title="Photo of Abdul"/>
+    <h1 class="f4"> Image Recogntion Web App</h1>
+    <hr class="mw3 bb bw1 b--black-10"/>
+  </div>
+  <p class="lh-copy measure center f6 black-70">
+  <a className=" underline center link fw6 blue near-black hover-silver dib mh3  pv4 tc" href="https://facedetec.herokuapp.com " target="_blank">facedetec.herokuapp.com
+  </a> 
+  <ul>
+     
+     
+    <li> Built a facial recognition web app using react, node.js ,
+postgresql and Clarifai api </li>
+  <li> The app finds and calculates the facial bounding box with
+over 99.9 percent accuracy. </li>
+</ul>
+
+   </p>
+   
 </article>
-);
 
+<article class=" Card mw5 center vh-75 bg-white br3 pa3 pa4-ns mv3 w-75 ba mr2 b--black-10 shadow-5">
+  <div class="tc">
+    <img src={Abdul}  class="br-100 h3 w3 dib" title="Photo of Abdul"/>
+    <h1 class="f4">myls</h1>
+    <hr class="mw3 bb bw1 b--black-10"/>
+  </div>
+  <p class="lh-copy measure center f6 black-70">
+   
+   <ul> 
+   <li> Implemented the 'ls' functionality on Linux Systems
+        using C and ARM Assembly.
+   </li>
+   <li>Implementation comes with various native options such Assembly
+
+     -f, -l, -a etc
+     </li>
+
+    <li> Checkout the project on my Github link on the left! </li>
+
+   </ul>
+  </p>
+</article>
+
+</article>
+    );
 }
 
 export default Projects;

@@ -1,6 +1,6 @@
 .borderr1 {
 	
-
+border-bottom: none;
 }
 .borderr2 {
 	border-bottom: none;
@@ -10,6 +10,8 @@
 
 
 .Sidebar{
+
+	height:1000px;
 
   /*color: rgb(232,232,232);*/
 
@@ -23,12 +25,30 @@ hr{
 
 	/*font-family: "Times New Roman";*/
 }
-#push{
+.main-nav{
 
-	justify-content: flex-end;
+     display: flex;
+     list-style: none;
+     margin:0;
 
 }
+ul{
 
+	list-style: none;
+}
+.Push{
+	margin-left:auto;
+
+}
+@media only screen and(max-width: 600px){
+
+ .main-nav {
+
+ 	font-size: 0.5em;
+ 	padding:0;
+ }
+
+}
 footer {
   position: absolute;
   bottom: 0;

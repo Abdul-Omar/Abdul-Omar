@@ -5,6 +5,9 @@ import  SocialButtonPage from './components/SocialButtonPage';
 import SideBar from './components/SideBar';
 import Cover from './components/Cover';
 import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
+import Teaching from './components/Teaching';
 import 'tachyons';
 
 
@@ -40,14 +43,42 @@ class App extends Component {
         <Navbar onRouteChange={this.onRouteChange}/>
         { route === 'home'
         ? <div className="flex">
-        <SideBar/> 
+        <SideBar className="h-auto"/> 
+        <Cover/>
         </div>
          :
-         <div className="flex-column" >
+         ( route === 'projects'
 
+         ?<div className="flex" >
+         <SideBar/>
          <Projects  onRouteChange={this.onRouteChange}> </Projects>
-         <SocialButtonPage className="footerr mb0 pv4"/>
          </div>
+
+         :
+         (
+
+         route === 'about'
+
+         ?<div className= "flex">
+         <SideBar/>
+         <About/>
+         </div>
+         :
+         ( route === 'contact'
+         ?
+          <div className="flex "> 
+
+           <SideBar/>
+          <Contact/> 
+          </div>
+          :
+
+          <div className=" flex-column"> 
+           < Teaching className="topp" />
+           </div>
+           )
+           )
+         )
        }
       </div>
     );

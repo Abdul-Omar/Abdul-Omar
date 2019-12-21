@@ -5,3 +5,12 @@
 	align-content: center;
 	background-image: url("./background.png");
 }
+
+ { border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.Card:hover {
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+}
