@@ -14,33 +14,33 @@ const Teaching = () =>{
      
 <article class="mw5 flex-left bg-white br3 pa3 pa4-ns mv0 ba borderr1 b--black-10 mt4 pt4  ">
   <div class="tc">
-   <a className="link near-black hover-silver dib mh3  pv5 tc" href="https://github.com/Abdul-Omar/ " target="_blank">
+   <a className="link near-black hover-silver dib mh3  pv5 tc" target="_blank">
     <img src={queue} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
     <span className="f4 ">Queue</span>
   </a>
 
-    <a className="link near-black hover-silver dib mh3  pv5 tc" href="https://github.com/Abdul-Omar/ " target="_blank">
+    <a className="link near-black hover-silver dib mh3  pv5 tc"  target="_blank">
     <img src={stack} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
     <span className="f4 ">Stack</span>
   </a>
 
-    <a className="link hover-silver near-black dib mh3  pv5 tc" href="https://linkedin.com/in/abdulkhaliq-omar-5a291b167/" target="_blank">
+    <a className="link hover-silver near-black dib mh3  pv5 tc" target="_blank">
    <img src={BST} className="br-100 h3 w3 dib" title="Photo of Abdul "/>
     <span className="f4 fw4">BST</span>
   </a>
 
-   <a className="link near-black hover-silver dib mh3 pv5 tc" href="https://medium.com"  target="_blank">
+   <a className="link near-black hover-silver dib mh3 pv5 tc"   target="_blank">
     <img src={KDT} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
     <span className="f4 db">KD-Tree</span>
   </a>
 
-   <a className="link near-black hover-silver dib mh3 pv5 tc" href="https://medium.com"  target="_blank">
+   <a className="link near-black hover-silver dib mh3 pv5 tc"  target="_blank">
     <img src={Graph} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
     <span className="f4 db">Graphs</span>
   </a>
 
 
-   <a className="link hover-silver near-black dib mh3  pv5 tc  " href="https://linkedin.com/in/abdulkhaliq-omar-5a291b167/" target="_blank">
+   <a className="link hover-silver near-black dib mh3  pv5 tc  " target="_blank">
    <img src={youtube} className="br-100 h3 w3 dib" title="Photo of Abdul"/>
     <span className="f6 db">Youtube</span>
   </a>
