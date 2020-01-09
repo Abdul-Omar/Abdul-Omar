@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Abdul-Omar/static/css/main.b4b390c0.chunk.css",
+    "main.js": "/Abdul-Omar/static/js/main.4e8bfbe1.chunk.js",
+    "main.js.map": "/Abdul-Omar/static/js/main.4e8bfbe1.chunk.js.map",
+    "runtime-main.js": "/Abdul-Omar/static/js/runtime-main.9632c244.js",
+    "runtime-main.js.map": "/Abdul-Omar/static/js/runtime-main.9632c244.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/Abdul-Omar/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.8137be08.chunk.js": "/Abdul-Omar/static/js/2.8137be08.chunk.js",
+    "static/js/2.8137be08.chunk.js.map": "/Abdul-Omar/static/js/2.8137be08.chunk.js.map",
+    "index.html": "/Abdul-Omar/index.html",
+    "precache-manifest.4c8a616deeec588b64fbef1cb9161e4d.js": "/Abdul-Omar/precache-manifest.4c8a616deeec588b64fbef1cb9161e4d.js",
+    "service-worker.js": "/Abdul-Omar/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/Abdul-Omar/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.b4b390c0.chunk.css.map": "/Abdul-Omar/static/css/main.b4b390c0.chunk.css.map",
+    "static/js/2.8137be08.chunk.js.LICENSE": "/Abdul-Omar/static/js/2.8137be08.chunk.js.LICENSE",
+    "static/media/Abdul.jpg": "/Abdul-Omar/static/media/Abdul.19699288.jpg",
+    "static/media/LinkedIn.png": "/Abdul-Omar/static/media/LinkedIn.a76ed0d6.png",
+    "static/media/Medium.png": "/Abdul-Omar/static/media/Medium.dca7ecf8.png",
+    "static/media/Cover.css": "/Abdul-Omar/static/media/background.906ca55d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9632c244.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.8137be08.chunk.js",
+    "static/css/main.b4b390c0.chunk.css",
+    "static/js/main.4e8bfbe1.chunk.js"
+  ]
+}
