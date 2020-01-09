@@ -15,33 +15,33 @@ const Teaching = () =>{
 <article class="mw5 flex-left bg-white br3 pa3 pa4-ns mv0 ba borderr1 b--black-10 mt4 pt4  ">
   <div class="tc">
    <a className="link near-black hover-silver dib mh3  pv5 tc" target="_blank">
-    <img src={queue} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
+    <img src={queue} class="br-100 h3 w3 dib" title="queue "/>
     <span className="f4 ">Queue</span>
   </a>
 
     <a className="link near-black hover-silver dib mh3  pv5 tc"  target="_blank">
-    <img src={stack} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
+    <img src={stack} class="br-100 h3 w3 dib" title="stack "/>
     <span className="f4 ">Stack</span>
   </a>
 
     <a className="link hover-silver near-black dib mh3  pv5 tc" target="_blank">
-   <img src={BST} className="br-100 h3 w3 dib" title="Photo of Abdul "/>
+   <img src={BST} className="br-100 h3 w3 dib" title="Binary Search Tree "/>
     <span className="f4 fw4">BST</span>
   </a>
 
    <a className="link near-black hover-silver dib mh3 pv5 tc"   target="_blank">
-    <img src={KDT} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
+    <img src={KDT} class="br-100 h3 w3 dib" title="KD-Tree "/>
     <span className="f4 db">KD-Tree</span>
   </a>
 
    <a className="link near-black hover-silver dib mh3 pv5 tc"  target="_blank">
-    <img src={Graph} class="br-100 h3 w3 dib" title="Photo of Abdul "/>
+    <img src={Graph} class="br-100 h3 w3 dib" title="graphs "/>
     <span className="f4 db">Graphs</span>
   </a>
 
 
    <a className="link hover-silver near-black dib mh3  pv5 tc  " target="_blank">
-   <img src={youtube} className="br-100 h3 w3 dib" title="Photo of Abdul"/>
+   <img src={youtube} className="br-100 h3 w3 dib" title="Youtube"/>
     <span className="f6 db">Youtube</span>
   </a>
 
@@ -51,8 +51,8 @@ const Teaching = () =>{
 
 <article class="cf pa3 mw9 center">
   <header class="fl w-100 w-50-l pa3-m pa4-l mb3 mb5-l">
+    <h2 className="fw6 light-green tc"> coming soon! </h2>
     <h2 class="lh-title f3 b mt0">
-
       Understanding the mechanics of advanced data structures and algorithms is 
       an important skill to have as a software engineer. In this field, you are always 
       surrounded by data and are always tasked with storing and organizing data.

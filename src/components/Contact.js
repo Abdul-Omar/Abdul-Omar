@@ -14,10 +14,10 @@ return(
     <h1 class="f4">Contact Info</h1>
     <hr class="mw3 bb bw1 b--black-10"/>
   </div>
-  <p class="lh-copy measure center f5 fw6 black-70">
+  <p class="lh-copy measure center f5 fw4 black-70 tc">
     Shoot me an email if interested! <br/>
     Details below: <br/>
-    Email: amomar@ucsd.edu<br/>
+    <h3 className="tc light-green fw2">Email: amomar@ucsd.edu<br/> </h3>
     <br/>
     Thanks for stopping by!
   </p>

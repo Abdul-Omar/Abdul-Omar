@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import  SocialButtonPage from './components/SocialButtonPage';
 import SideBar from './components/SideBar';
 import Cover from './components/Cover';
 import Projects from './components/Projects';
